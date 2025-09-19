@@ -121,6 +121,88 @@ class NetOptimized(nn.Module):
         return F.log_softmax(x, dim=1)
 ```
 
+## Logs
+```
+Epoch 1
+Train: Loss=0.1225 Batch_id=468 Accuracy=89.23: 100%|██████████| 469/469 [00:20<00:00, 22.74it/s]
+Test set: Average loss: 0.0007, Accuracy: 9715/10000 (97.15%)
+
+Epoch 2
+Train: Loss=0.0647 Batch_id=468 Accuracy=96.42: 100%|██████████| 469/469 [00:21<00:00, 22.31it/s]
+Test set: Average loss: 0.0004, Accuracy: 9852/10000 (98.52%)
+
+Epoch 3
+Train: Loss=0.0659 Batch_id=468 Accuracy=97.33: 100%|██████████| 469/469 [00:21<00:00, 22.26it/s]
+Test set: Average loss: 0.0003, Accuracy: 9888/10000 (98.88%)
+
+Epoch 4
+Train: Loss=0.0311 Batch_id=468 Accuracy=97.61: 100%|██████████| 469/469 [00:19<00:00, 23.95it/s]
+Test set: Average loss: 0.0003, Accuracy: 9867/10000 (98.67%)
+
+Epoch 5
+Train: Loss=0.1303 Batch_id=468 Accuracy=97.86: 100%|██████████| 469/469 [00:19<00:00, 23.59it/s]
+Test set: Average loss: 0.0003, Accuracy: 9875/10000 (98.75%)
+
+Epoch 6
+Train: Loss=0.0428 Batch_id=468 Accuracy=98.14: 100%|██████████| 469/469 [00:20<00:00, 22.51it/s]
+Test set: Average loss: 0.0003, Accuracy: 9892/10000 (98.92%)
+
+Epoch 7
+Train: Loss=0.0116 Batch_id=468 Accuracy=98.20: 100%|██████████| 469/469 [00:20<00:00, 22.39it/s]
+Test set: Average loss: 0.0002, Accuracy: 9915/10000 (99.15%)
+
+Epoch 8
+Train: Loss=0.0347 Batch_id=468 Accuracy=98.29: 100%|██████████| 469/469 [00:21<00:00, 22.09it/s]
+Test set: Average loss: 0.0002, Accuracy: 9913/10000 (99.13%)
+
+Epoch 9
+Train: Loss=0.0410 Batch_id=468 Accuracy=98.50: 100%|██████████| 469/469 [00:21<00:00, 22.20it/s]
+Test set: Average loss: 0.0002, Accuracy: 9911/10000 (99.11%)
+
+Epoch 10
+Train: Loss=0.0657 Batch_id=468 Accuracy=98.39: 100%|██████████| 469/469 [00:20<00:00, 23.09it/s]
+Test set: Average loss: 0.0002, Accuracy: 9910/10000 (99.10%)
+
+Epoch 11
+Train: Loss=0.0127 Batch_id=468 Accuracy=98.54: 100%|██████████| 469/469 [00:20<00:00, 23.06it/s]
+Test set: Average loss: 0.0002, Accuracy: 9923/10000 (99.23%)
+
+Epoch 12
+Train: Loss=0.0414 Batch_id=468 Accuracy=98.52: 100%|██████████| 469/469 [00:20<00:00, 23.16it/s]
+Test set: Average loss: 0.0003, Accuracy: 9887/10000 (98.87%)
+
+Epoch 13
+Train: Loss=0.0355 Batch_id=468 Accuracy=98.65: 100%|██████████| 469/469 [00:20<00:00, 22.49it/s]
+Test set: Average loss: 0.0002, Accuracy: 9922/10000 (99.22%)
+
+Epoch 14
+Train: Loss=0.0526 Batch_id=468 Accuracy=98.64: 100%|██████████| 469/469 [00:21<00:00, 22.22it/s]
+Test set: Average loss: 0.0002, Accuracy: 9929/10000 (99.29%)
+
+Epoch 15
+Train: Loss=0.0440 Batch_id=468 Accuracy=98.68: 100%|██████████| 469/469 [00:20<00:00, 22.44it/s]
+Test set: Average loss: 0.0002, Accuracy: 9945/10000 (99.45%)
+
+Epoch 16
+Train: Loss=0.1297 Batch_id=468 Accuracy=98.77: 100%|██████████| 469/469 [00:20<00:00, 22.63it/s]
+Test set: Average loss: 0.0002, Accuracy: 9909/10000 (99.09%)
+
+Epoch 17
+Train: Loss=0.0638 Batch_id=468 Accuracy=98.71: 100%|██████████| 469/469 [00:20<00:00, 23.28it/s]
+Test set: Average loss: 0.0002, Accuracy: 9917/10000 (99.17%)
+
+Epoch 18
+Train: Loss=0.0748 Batch_id=468 Accuracy=98.77: 100%|██████████| 469/469 [00:19<00:00, 23.55it/s]
+Test set: Average loss: 0.0002, Accuracy: 9930/10000 (99.30%)
+
+Epoch 19
+Train: Loss=0.0222 Batch_id=468 Accuracy=98.83: 100%|██████████| 469/469 [00:20<00:00, 23.23it/s]
+Test set: Average loss: 0.0002, Accuracy: 9915/10000 (99.15%)
+
+Epoch 20
+Train: Loss=0.0316 Batch_id=468 Accuracy=98.93: 100%|██████████| 469/469 [00:21<00:00, 22.32it/s]
+Test set: Average loss: 0.0001, Accuracy: 9947/10000 (99.47%)
+```
 
 ## Conclusion
 
